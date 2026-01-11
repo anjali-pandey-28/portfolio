@@ -10,7 +10,7 @@ const projectsData = [
     id: "project-1",
     title: "Amazon Clone",
     description: "Amazon Clone - A simple Amazon Clone built using HTML and CSS. This project replicates the front-end design of the Amazon website,",
-    skills: ["Next.js", "Tailwind", "Redux"],
+    skills: ["HTML", "CSS"],
     img: aImg,
     gitLink: "https://github.com/anjali-pandey-28/amazon-clone"
   },
@@ -18,7 +18,7 @@ const projectsData = [
     id: "project-2",
     title: "Ui Forge",
     description: "A modern looking, responsive web page built for high performance.",
-    skills: ["React", "CSS", "HTML"],
+    skills: ["React", "CSS", "JAVASCRIPT"],
     img: uiImg, 
     gitLink: "https://github.com/anjali-pandey-28/UIForge"
   },
@@ -26,7 +26,7 @@ const projectsData = [
     id: "project-3",
     title: "Cophino",
     description: "A beutiful, responsive landing webpage of a coffee website",
-    skills: ["React", "CSS", "HTML"],
+    skills: ["JAVASCRIPT", "CSS", "HTML"],
     img: cImg,
     gitLink: "https://github.com/anjali-pandey-28/"
   },
@@ -34,7 +34,7 @@ const projectsData = [
     id: "project-4",
     title: "Tic Tac Toe",
     description: "A game build using HTML , CSS , and Javascript",
-    skills: ["React", "CSS", "HTML"],
+    skills: ["JAVASCRIPT", "CSS", "HTML"],
     img: tImg,
     gitLink: "https://github.com/anjali-pandey-28/Tic-Tac-Toe"
   },
