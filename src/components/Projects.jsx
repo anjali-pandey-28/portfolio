@@ -4,16 +4,18 @@ import uiImg from './ui.png';
 import aImg from './a.png';
 import tImg from './t.png';
 import cImg from './c.png';
+import sImg from './SS.png'
 
 const projectsData = [
-  {
-    id: "project-1",
-    title: "Amazon Clone",
-    description: "Amazon Clone - A simple Amazon Clone built using HTML and CSS. This project replicates the front-end design of the Amazon website,",
-    skills: ["HTML", "CSS"],
-    img: aImg,
-    gitLink: "https://github.com/anjali-pandey-28/amazon-clone"
-  },
+   {
+    id: "project-5",
+    title: "Scam-Sense",
+    description: "Identify and report online scams with Scam Sense. Learn cyber safety, fraud prevention, and protect yourself from digital fraud",
+    skills: ["NEXTJS", "TAILWIND", "TYPESCRIPT"],
+    img: sImg,
+    gitLink: "https://github.com/anjali-pandey-28/Scam-Sense"
+  }
+ ,
   {
     id: "project-2",
     title: "Ui Forge",
@@ -38,6 +40,14 @@ const projectsData = [
     img: tImg,
     gitLink: "https://github.com/anjali-pandey-28/Tic-Tac-Toe"
   },
+    {
+    id: "project-1",
+    title: "Amazon Clone",
+    description: "Amazon Clone - A simple Amazon Clone built using HTML and CSS. This project replicates the front-end design of the Amazon website,",
+    skills: ["HTML", "CSS"],
+    img: aImg,
+    gitLink: "https://github.com/anjali-pandey-28/amazon-clone"
+  }
 ];
 
 export default function Projects() {
