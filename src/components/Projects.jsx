@@ -4,7 +4,9 @@ import uiImg from './ui.png';
 import aImg from './a.png';
 import tImg from './t.png';
 import cImg from './c.png';
-import sImg from './SS.png'
+import sImg from './SS.png';
+import bImg from './bloglySS.jpg'
+
 
 const projectsData = [
    {
@@ -14,8 +16,15 @@ const projectsData = [
     skills: ["NEXTJS", "TAILWIND", "TYPESCRIPT"],
     img: sImg,
     gitLink: "https://github.com/anjali-pandey-28/Scam-Sense"
-  }
- ,
+  },
+    {
+    id: "project-6",
+    title: "BlogLy",
+    description: "Blogly is a full-stack blog platform built for seamless content creation and management.",
+    skills: ["TYPESCRIPT", "NODEJS", "REACT"],
+    img: bImg,
+    gitLink: "https://github.com/anjali-pandey-28/blogLy-frontend"
+  },
   {
     id: "project-2",
     title: "Ui Forge",
