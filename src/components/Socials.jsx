@@ -10,6 +10,7 @@ export default function Socials() {
   return (
     <section id="socials" className="socials-section">
       <h2 className="section-title">Let’s Be Friends</h2>
+      <br/>
       <p className="social-subtitle">Feel free to reach out for collaborations or just a friendly hello!</p>
       
       <div className="socials-container">

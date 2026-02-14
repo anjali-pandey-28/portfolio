@@ -12,10 +12,11 @@ const skillStyle = {
 };
 
 export default function Skills() {
-  const mySkills = ['HTML', 'CSS', 'JavaScript', 'React','Git & Github'];
+  const mySkills = ['HTML', 'CSS', 'JavaScript', 'React','NodeJs','Git & Github', 'NextJs','Tailwind','TypeScript'];
   return (
     <section id="skills">
       <h2>Curated Skills</h2>
+      <br/>
       <div >
         {mySkills.map(skill => <span key={skill} style={skillStyle} id="skill">{skill}</span>)}
       </div>

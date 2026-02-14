@@ -92,6 +92,7 @@ export default function Projects() {
                 <a href={project.gitLink} target="_blank" rel="noopener noreferrer" className="git-btn">
                   View GitHub
                 </a>
+              
               </div>
             </div>
 
